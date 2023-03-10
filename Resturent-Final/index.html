@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sarah with Love</title>
+	<link rel="stylesheet" type="text/css" href="CSS.css">
+	<link rel="shortcut icon" href="/" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link rel="shortcut icon" href="/Resturent-Final/logo.jpg" type="image/x-icon">
+	<script src="https://kit.fontawesome.com/739f03c919.js" crossorigin="anonymous"></script>
+	 <script src="javascript.js"></script>
+	
+</head>
+<body>
+
+		<div class="container">
+			<ul class="dropdown">
+				<p class="res-name"><span style="font-size:65px ;">S</span>arah</p>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Menu</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+        <video class="video" autoplay loop muted plays-inline>
+            <source src="/restvideo.webm" type="video/mp4" style="width: 100%;"> 
+        </video>
+  		<div class="content">
+  			<p class="desc-1">Welcome to <span class="desc-2"> Our Restaurent...</span></p>
+  			<p class="desc-3"> Food is Symbolic of <i style="color: rgb(215, 206, 206); font-weight: bold;">Love</i> , When words are inadequate!</p>
+  		</div>
+		<div>
+			<img src="/Resturent-Final/restable.jpg" alt="res template" class="sec-img">
+		</div>
+
+		<div class="content-1">
+			<div class="tittle">
+				Deliviring Great Food
+				<div class="slider">
+				<div class="">Simply!</div>
+				<div class="">Delicious!</div>
+				<div class="">With love!</div>
+				</div>
+			</div>
+		</div>
+		<Button class="res-but1">Learn More!</Button>
+
+		<div class="content-2">
+			<div class="swiper">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+				  <!-- Slides -->
+				  <div class="swiper-slide"><img src="/Resturent-Final/grill.jpg" alt="Grill Chicken">
+				<div class="res-item-list">Grill Chicken</div></div>
+				  <div class="swiper-slide"><img src="/Resturent-Final/shawarma.jpg" alt="Shawarma">
+					<div class="res-item-list">Chicken Shawarma</div></div>
+				  <div class="swiper-slide"><img src="/Resturent-Final/momos.jpg" alt="Momos">
+					<div class="res-item-list">Chicken Momos</div></div>
+				  <div class="swiper-slide"><img src="/Resturent-Final/panipuri.jpg" alt="Panipuri">
+					<div class="res-item-list">Pani Puri</div></div>
+				  <div class="swiper-slide"><img src="/Resturent-Final/friderice12.jpg" alt="Fride Rice">
+					<div class="res-item-list">Chicken Fride Rice</div></div>
+				  ...
+				</div>
+				<!-- If we need pagination -->
+				<!-- <div class="swiper-pagination"></div> -->
+			  
+				<!-- If we need navigation buttons -->
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			  <br>
+		</div>	
+		<div class="content-3">
+		<p class="para1">
+			Build with the world’s most intuitive platform Create better websites with mobile-responsive templates, seamless drag & drop and unlimited customization.Build with the world’s most intuitive platform Create better websites with mobile-responsive templates, seamless drag & drop and unlimited customizationBuild with the world’s most intuitive platform Create better websites with mobile-responsive templates, seamless drag & drop and unlimited customization</p>
+		</div>
+	
+			
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+		<script>
+			
+		const swiper = new Swiper('.swiper', {
+			autoplay:{
+				delay:3000,
+				disableOnInteraction:false,
+			},
+			loop: true,
+		  
+			pagination: {
+			  el: '.swiper-pagination',
+			  clickable:true,
+			},
+		  
+			navigation: {
+			  nextEl: '.swiper-button-next',
+			  prevEl: '.swiper-button-prev',
+			},
+		  
+			
+		  });
+		</script>
+</body>
+</html>
